@@ -1,0 +1,24 @@
+.headercss {
+    color: rgb(90, 36, 0);
+    font-family: cursive;
+    padding-top: 30px;
+    background-image: linear-gradient(to right, #002e06, #00b400,#002e06 );
+    
+}
+.welcome {
+    color:rgb(23, 0, 151);
+}
+
+body{ 
+    background-image:
+    url("Roasted_coffee_beans.jpg");
+    /* https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/800px-Roasted_coffee_beans.jpg */
+}
+
+.whiteThis {
+    color: rgba(255, 255, 255, 1);
+    font-family: cursive;
+    font-size:large;
+    background-color:rgba(90, 36, 0, 0.5);
+    
+}
