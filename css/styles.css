@@ -9,7 +9,7 @@
     color:rgb(23, 0, 151);
 }
 
-body{ 
+body.beansBack{ 
     background-image:
     url("Roasted_coffee_beans.jpg");
     /* https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/800px-Roasted_coffee_beans.jpg */
@@ -21,4 +21,20 @@ body{
     font-size:large;
     background-color:rgba(90, 36, 0, 0.5);
     
+}
+
+.GB {
+    background-color: rgba(189,185,150,255);
+}
+
+.headerGB {
+    color: rgb(134, 235, 125);
+    font-family: cursive;
+    padding-top: 30px;
+    background-image: linear-gradient(to right, #002e06, rgb(85, 59, 2),#002e06 );
+    
+}
+
+ul {
+    list-style: none;
 }
