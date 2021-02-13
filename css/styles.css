@@ -18,13 +18,17 @@ body.beansBack{
 .whiteThis {
     color: rgba(255, 255, 255, 1);
     font-family: cursive;
-    font-size:large;
-    background-color:rgba(90, 36, 0, 0.5);
-    
+    font-size: large;
+    background-color:rgba(90, 36, 0, 0.75);   
 }
 
 .GB {
     background-color: rgba(189,185,150,255);
+}
+
+.GBRob {
+    background-color: #854c28;
+    color:rgb(255, 255, 255)
 }
 
 .headerGB {
@@ -34,7 +38,57 @@ body.beansBack{
     background-image: linear-gradient(to right, #002e06, rgb(85, 59, 2),#002e06 );
     
 }
+.headerRL {
+    color: rgb(134, 235, 125);
+    font-family: cursive;
+    padding-top: 30px;
+    background-image: linear-gradient(to right, #1a161d, #553629,#1a161d );
+    
+}
+
 
 ul {
     list-style: none;
+}
+
+body.LRoast{ 
+    background-image:
+    url("../Images/Roast Variation/BeanBackMod/LightRoast.jpg");
+}
+
+body.RLevel{ 
+    background-image:
+    url("../Images/Roast Variation/RoastGradientCrop.jpg");
+}
+
+body.MRoast{ 
+    background-image:
+    url("../Images/Roast Variation/BeanBackMod/MediumRoast.jpg");
+}
+
+.whiteThisMR {
+    color: rgba(255, 255, 255, 1);
+    /* font-family: cursive; */
+    font-size: large;
+    background-color:#553629; 
+    list-style: circle;  
+}
+.bullets {
+    list-style: circle;
+}
+
+.whiteThisRL {
+    color: rgba(255, 255, 255, 1);
+    /* font-family: cursive; */
+    font-size: large;
+    background-color:#554b41; 
+    list-style: circle;  
+}
+
+.whiteThisLR {
+    color: rgba(255, 255, 255, 1);
+    /* font-family: cursive; */
+    font-size: large;
+    background-color:#694f37; 
+    list-style: circle;  
 }
