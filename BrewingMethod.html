@@ -40,7 +40,7 @@
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="GreenBeans.html">Green Beans</a></li>
                 <li class="nav-item"><a class="nav-link" href="RoastLevel.html">Roast Level</a></li>
-                <li class="nav-item  active"><a class="nav-link" href="index.html">Brewing Method</a></li>
+                <li class="nav-item  active"><a class="nav-link" href="BrewingMethod.html">Brewing Method</a></li>
             </ul>
         </div>
     </div>
@@ -49,29 +49,29 @@
 <div class="container-fluid">
     <div class="row mt-4">
         <div class="col-sm-2 text-left mt-2">
-            <ul class="nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Brewing Method</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Drip</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Expresso</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">French Press</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Cold Brew</a>
-                </li>
+            <ul>
+                <li id="BR">Brewing Method</li><br>
+                <li id="DR">Drip</li><br>
+                <li id="EX">Expresso</li><br>
+                <li id="FP">French Press</li><br>
+
             </ul>
         </div>
         <div class="col-sm-5 text-center">
             <p>
-                Finally the brewing process will dictate the overall character of the coffee drink.  I'll give a little info about expresso drinks speciffically
-                in the Expressso section.  
+                Use JS to change both the text and an assoaiated image to the right of the text.  Possibly change the background.  May be a point to 
+                change things around to make the script more effiectiant.  
             </p>
+            <p id="BMtext">
+                Finally the brewing process will dictate the overall character of the coffee drink.  I'll give a little info about expresso drinks speciffically
+                in the Expressso section.  Here's a little more text for this section.  I wonder if the reader made it this far...
+            </p>
+            <!-- <p id="FPtext">
+                This is information about French Press. The French press was created in France in the year 1792 and a response to King Napoleons desir for a more intense coffee experience.  
+                French press will start with coarse grind for two reasons.  One being that the grounds are steeped in hot water and not washed over by drip. This enables the beans to be exctracted 
+                fully, even though they are a larger grind.  The other reason is that the procese uses a mesh screen to separate the grounds from the coffee.  If the beans had a 
+                regiular grind, the grounds would seep through the mesh press screen.
+            </p> -->
         </div>
         <div class="col-sm-5">
 
@@ -84,6 +84,7 @@
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="BrewingMethod.js"></script>
 </body>
 
 </html>
