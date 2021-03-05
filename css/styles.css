@@ -49,6 +49,7 @@ body.beansBack{
 
 ul {
     list-style: none;
+    padding-left: 0;
 }
 
 body.LRoast{ 
@@ -64,6 +65,16 @@ body.RLevel{
 body.MRoast{ 
     background-image:
     url("../Images/Roast Variation/BeanBackMod/MediumRoast.jpg");
+}
+
+body.MDRoast {
+    background-image:
+    url("../Images/Roast Variation/BeanBackMod/MediumDark.jpg");
+}
+
+body.DRoast {
+    background-image:
+    url("../Images/Roast Variation/BeanBackMod/FrenchRoast.jpg");
 }
 
 .whiteThisMR {
@@ -91,4 +102,25 @@ body.MRoast{
     font-size: large;
     background-color:#694f37; 
     list-style: circle;  
+}
+
+.whiteThisMDR {
+    color: rgba(255, 255, 255, 1);
+    /* font-family: cursive; */
+    font-size: large;
+    background-color: #362219; 
+    list-style: circle;  
+}
+
+.whiteThisDR {
+    color: rgba(255, 255, 255, 1);
+    /* font-family: cursive; */
+    font-size: large;
+    background-color: #1f130e; 
+    list-style: circle;  
+}
+
+.link li:hover {
+    cursor: pointer;
+    color: rgb(0, 255, 0);
 }
